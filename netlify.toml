@@ -8,3 +8,6 @@
   status = 200
 
 
+
+[build.environment]
+SECRETS_SCAN_OMIT_KEYS = "VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY"
